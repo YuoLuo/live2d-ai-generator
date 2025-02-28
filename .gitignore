@@ -1,0 +1,8 @@
+temp/sam_models/
+*.pth
+temp/
+models/
+output/
+venv/
+__pycache__/
+*.pyc
