@@ -77,7 +77,7 @@ Live2D AI Generator 是一个创新的工具，它结合了最先进的AI技术�
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/your-username/live2d-ai-generator.git
+git clone https://github.com/YuoLuo/live2d-ai-generator.git
 cd live2d-ai-generator
 ```
 
@@ -98,7 +98,7 @@ chmod +x run.sh
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/your-username/live2d-ai-generator.git
+git clone https://github.com/YuoLuo/live2d-ai-generator.git
 cd live2d-ai-generator
 ```
 
@@ -364,10 +364,10 @@ A: 确保：
 ---
 
 <div align="center">
-  <p>Live2D AI Generator © 2023</p>
+  <p>Live2D AI Generator © 2025</p>
   <p>
-    <a href="https://github.com/your-username/live2d-ai-generator/issues">报告问题</a> •
-    <a href="https://github.com/your-username/live2d-ai-generator/wiki">文档</a> •
-    <a href="mailto:your-email@example.com">联系我们</a>
+    <a href="https://github.com/YuoLuo/live2d-ai-generator/issues">报告问题</a> •
+    <a href="https://github.com/YuoLuo/live2d-ai-generator/wiki">文档</a> •
+    <a href="mailto:1794760219@qq.com@example.com">联系我们</a>
   </p>
 </div> 
