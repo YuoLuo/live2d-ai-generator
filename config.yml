@@ -1,0 +1,137 @@
+character:
+  model: stable-diffusion-xl-base-1.0
+  provider: stability-ai
+  style: anime
+  resolution:
+  - 1024
+  - 1024
+  pose: front_facing
+  samples: 4
+  cfg_scale: 7.0
+  steps: 50
+  seed: null
+  api:
+    key: ''
+    url: ''
+  prompts:
+    positive: ''
+    negative: ''
+layers:
+  auto_separate: true
+  refine_edges: true
+  segmentation_model: segment_anything
+  parts:
+  - hair_front
+  - hair_side
+  - hair_back
+  - face
+  - eyebrows_left
+  - eyebrows_right
+  - eye_left
+  - eye_right
+  - eye_white_left
+  - eye_white_right
+  - iris_left
+  - iris_right
+  - highlight_left
+  - highlight_right
+  - nose
+  - mouth
+  - upper_lip
+  - lower_lip
+  - body
+  - arm_left
+  - arm_right
+  - leg_left
+  - leg_right
+  - accessories
+  fill_background: true
+  background_color:
+  - 255
+  - 255
+  - 255
+  - 0
+  auto_repair: true
+  export_psd: true
+cubism:
+  executable_path: ''
+  version: '4.2'
+  template: default
+  wait_time: 5
+  auto_save: true
+  auto_close: true
+  ui:
+    delay_between_actions: 0.5
+    screenshot_verify: true
+    error_retry_count: 3
+parameters:
+  template_path: ./templates/parameters
+  physics:
+    enabled: true
+    quality: medium
+  deformer:
+    enabled: true
+    complexity: medium
+  animation:
+    eye_blink:
+      enabled: true
+      frequency: medium
+    mouth_movement:
+      enabled: true
+      complexity: medium
+    body_movement:
+      enabled: true
+      amount: medium
+    breathing:
+      enabled: true
+      depth: medium
+export:
+  format: model3.json
+  output_dir: ./output/export
+  include_demo_motion: true
+  compression:
+    enabled: true
+    level: 9
+  additional_files:
+    readme: true
+    thumbnail: true
+    preview_html: true
+misc:
+  temp_dir: ./temp
+  cleanup_temp: true
+  gpu:
+    enabled: true
+    device_id: 0
+  debug:
+    save_intermediate: false
+    verbose_logging: false
+io:
+  output_dir: ./output
+  temp_dir: ./temp
+logging:
+  level: INFO
+  file: ./logs/app.log
+  max_size_mb: 10
+  backup_count: 3
+  console: true
+layer_separation:
+  model: segment_anything
+  output_format: psd
+  quality: high
+  use_alpha: true
+  background_removal: true
+  parts:
+    face: true
+    eyes: true
+    eyebrows: true
+    mouth: true
+    nose: true
+    hair: true
+    body: true
+    arms: true
+    legs: true
+    accessories: true
+  params:
+    confidence_threshold: 0.5
+    mask_expansion: 2
+    edge_blur: 1
