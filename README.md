@@ -368,6 +368,6 @@ A: 确保：
   <p>
     <a href="https://github.com/YuoLuo/live2d-ai-generator/issues">报告问题</a> •
     <a href="https://github.com/YuoLuo/live2d-ai-generator/wiki">文档</a> •
-    <a href="mailto:1794760219@qq.com@example.com">联系我们</a>
+    <a href="mailto:1794760219@qq.com">联系我们</a>
   </p>
 </div> 
